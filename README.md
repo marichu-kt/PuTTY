@@ -65,20 +65,11 @@ esto provocara que el sistema le mande señales "keep alive" cada cierto tiempo 
 
 ![Connection](/Images/img-7.png)
 
-## Ejemplo 👨‍💻
-
-En este ejemplo nos hemos conectado desde Windows a una maquina de Kali, es importante haber iniciado ssh en kali porque si no sera imposible su conexion,
-   esto se puede hacer con el comando 'sudo apt install openssh-server' si aun no esta instalado, despues iniciar ssh con 'sudo service ssh start'.
-   Podemos ver nuestra IP y el puerto en el que estamos con 'ifconfig' o 'ip a', y los metemos en PuTTY. En este caso, para comprobar que funciona todo, hemos creado una carpeta "test".
-
-![Connection](/Images/img-8.png)
-
-En este caso, para comprobar que funciona todo, hemos creado una carpeta "test".
 
 
 
 
-# Guía de Conexión SSH desde Windows a Kali Linux
+# Guía de Conexión SSH desde Windows a Kali Linux 👨‍💻
 Esta guía proporciona instrucciones paso a paso sobre cómo establecer una conexión SSH desde un sistema Windows a una máquina que ejecuta Kali Linux.
 
 ## Requisitos previos
@@ -100,6 +91,9 @@ Asegúrate de que el puerto utilizado sea el mismo que el configurado en el serv
 ## Verificación
 Una vez conectado, verifica que la conexión funciona correctamente.
 Puedes realizar pruebas, como crear una carpeta o ejecutar comandos en la máquina de Kali Linux desde PuTTY.
+
+![Connection](/Images/img-8.png)
+
 ¡Listo! Ahora has establecido una conexión SSH exitosa desde Windows a Kali Linux.
 
 Esta guía proporciona los pasos esenciales para establecer la conexión SSH y puede ser ampliada según sea necesario, incluyendo más detalles sobre configuraciones específicas o solución de problemas comunes.
