@@ -32,42 +32,41 @@ Para utilizar PuTTY, simplemente sigue estos pasos:
 5. Ingresa tus credenciales de autenticación cuando se te solicite.
 6. Una vez conectado, podrás interactuar con el servidor a través de la interfaz de línea de comandos de PuTTY.
 
-## Personalización 🧢
+#
+#
 
-1. En el apartado de "Loggin" (Sesiones), si queremos que nos registre todas las sesiones en un log y que además 
-   nos pregunte siempre si queremos que las guarde, deberemos marcar las opciones de los recuadros en rojo.
+# Personalización 🧢
 
+## Loggin (Sesiones)
+En el apartado de "Loggin" (Sesiones), activa la opción para registrar todas las sesiones en un archivo de registro. Además, configura el sistema para que siempre te pregunte si deseas guardar estas sesiones marcando las opciones indicadas en los recuadros en rojo.
 ![Loggin](/Images/img-1.png)
 
-2. En el apartado de "Terminal" - "Bell", podemos quitar el sonido del Beep y cambiarlo por una animacion visual.
-
+## Terminal - Bell
+Dentro de "Terminal" en la sección "Bell", desactiva el sonido del Beep y cámbialo por una animación visual más agradable para las notificaciones.
 ![Terminal](/Images/img-2.png)
 
-3. En el apartado de "Window", podemos poner el valor 0 en scrollback para tener lineas infinitas en la terminal para que no se pierdan.
-
+## Window - Scrollback
+En el apartado de "Window", establece el valor de scrollback en 0 para tener un número ilimitado de líneas en la terminal y así evitar la pérdida de información.
 ![Window](/Images/img-3.png)
 
-4. En el apartado de "Window" - "Colours", podemos personalizar los colores de la terminal como en el sistema o cualquiera que elijamos.
-
+## Window - Colours
+En la sección de "Window" - "Colours", personaliza los colores de la terminal para que se ajusten a tus preferencias o al esquema de colores del sistema.
 ![Window](/Images/img-4.png)
 
-5. En el apartado de "Connection", si queremos que no se corte la sesion por inactividad, debemos ponerle un valor positivo en segundos,
-esto provocara que el sistema le mande señales "keep alive" cada cierto tiempo evitando que se cierre la sesion.
-
+## Connection - Inactivity Timeout
+En la configuración de "Connection", asegúrate de que la sesión no se corte por inactividad. Para ello, establece un valor positivo en segundos para que el sistema envíe señales "keep alive" periódicamente y así evitar el cierre automático de la sesión.
 ![Connection](/Images/img-5.png)
 
-6. En el apartado de "Connection" - "Data", podemos poner un nombre de usuario predeterminado si vamos a iniciar sesion siempre con la misma maquina.
-
+## Connection - Data
+Dentro de "Connection" - "Data", puedes establecer un nombre de usuario predeterminado si inicias sesión repetidamente desde la misma máquina.
 ![Connection](/Images/img-6.png)
 
-7. En el apartado de "Connection" - "Proxy", podemos configurar nuestros propios Proxies para acceder a nuestra maquina de una forma mas segura, 
-   podriamos usar Tor como proxy, ingresando nuestro host 127.0.0.1 y el puerto predeterminado 9050, preferiblemente usar el tipo SOKS5.
-
+## Connection - Proxy
+En el apartado de "Connection" - "Proxy", configura tus propios proxies para acceder a tu máquina de forma más segura. Por ejemplo, podrías utilizar Tor como proxy ingresando el host 127.0.0.1 y el puerto predeterminado 9050, preferiblemente utilizando el tipo SOKS5.
 ![Connection](/Images/img-7.png)
 
-
-
-
+#
+#
 
 # Guía de Conexión SSH desde Windows a Kali Linux 👨‍💻
 Esta guía proporciona instrucciones paso a paso sobre cómo establecer una conexión SSH desde un sistema Windows a una máquina que ejecuta Kali Linux.
