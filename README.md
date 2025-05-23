@@ -1,3 +1,4 @@
+<!-- YOLO test v2 -->
 # PuTTY 🚀
 
 PuTTY es un cliente de terminal gratuito y de código abierto que soporta varios protocolos de red, incluyendo SSH, Telnet, SCP, y más. Es ampliamente utilizado en entornos de administración de sistemas y desarrollo de software para acceder y gestionar servidores remotos de forma segura a través de una interfaz de línea de comandos.
@@ -97,7 +98,6 @@ Asegúrate de que el puerto utilizado sea el mismo que el configurado en el serv
 ## Verificación
 Una vez conectado, verifica que la conexión funciona correctamente.
 Puedes realizar pruebas, como crear una carpeta o ejecutar comandos en la máquina de Kali Linux desde PuTTY.
-
 ![Connection](/Images/img-8.png)
 
 ¡Listo! Ahora has establecido una conexión SSH exitosa desde Windows a Kali Linux.
