@@ -97,7 +97,6 @@ Asegúrate de que el puerto utilizado sea el mismo que el configurado en el serv
 ## Verificación
 Una vez conectado, verifica que la conexión funciona correctamente.
 Puedes realizar pruebas, como crear una carpeta o ejecutar comandos en la máquina de Kali Linux desde PuTTY.
-
 ![Connection](/Images/img-8.png)
 
 ¡Listo! Ahora has establecido una conexión SSH exitosa desde Windows a Kali Linux.
