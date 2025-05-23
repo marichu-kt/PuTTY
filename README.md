@@ -102,4 +102,4 @@ Puedes realizar pruebas, como crear una carpeta o ejecutar comandos en la máqui
 
 ¡Listo! Ahora has establecido una conexión SSH exitosa desde Windows a Kali Linux.
 
-Esta guía proporciona los pasos esenciales para establecer la conexión SSH y puede ser ampliada según sea necesario, incluyendo más detalles sobre configuraciones específicas o solución de problemas comunes.
+Esta guía proporciona los pasos esenciales para establecer la conexión SSH incluyendo detalles sobre configuraciones específicas.
